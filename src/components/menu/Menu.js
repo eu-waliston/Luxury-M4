@@ -7,12 +7,12 @@ const Menu = () => {
             <img src={require("../images/logo.png")} alt="logo" className="logo" />
             <h3>luxury m4</h3>
             <ul className="navbar">
-                <li className="nav__item">home</li>
-                <li className="nav__item">about us</li>
-                <li className="nav__item">collection</li>
-                <li className="nav__item">contact us</li>
-                <li className="nav__item">best products</li>
-                <li className="nav__item">find us</li>
+                <a className="nav__item" href="/">home</a>
+                <a className="nav__item" href="/">about us</a>
+                <a className="nav__item" href="/">collection</a>
+                <a className="nav__item" href="/">contact us</a>
+                <a className="nav__item" href="/">top products</a>
+                <a className="nav__item" href="/" >find us</a>
             </ul>
         </div>
     )
