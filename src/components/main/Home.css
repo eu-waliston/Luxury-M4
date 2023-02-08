@@ -10,17 +10,18 @@
 }
 
 .carousel {
-    width: 100%;
     filter: brightness(0.6);
 }
 
+
 .info {
-    position: relative;
-    top: -820px;
+    position: absolute;
+    top:600px;
     z-index: 2222;
     color: aliceblue;
     text-align: center;
     text-transform: capitalize;
+    margin-left: 28%;
 }
 
 .info > h1 {
@@ -29,7 +30,7 @@
 }
 
 .btn {
-    color: aliceblue;
+    color: aliceblue !important;
 }
 
 @media (max-width: 900px) {
