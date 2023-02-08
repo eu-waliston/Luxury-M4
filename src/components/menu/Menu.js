@@ -6,7 +6,7 @@ const Menu = () => {
         <div className="menu">
             <img src={require("../images/logo.png")} alt="logo" className="logo" />
             <h3>luxury m4</h3>
-            <ul className="navbar">
+            <ul className="nav__bar">
                 <a className="nav__item" href="/">home</a>
                 <a className="nav__item" href="/">about us</a>
                 <a className="nav__item" href="/">collection</a>

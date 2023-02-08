@@ -4,54 +4,54 @@
 
 
 :root {
-    --font--site: 'Montserrat', sans-serif;
-    --font--text: 'Open Sans', sans-serif;
-    --color--site: #050547;
+    --font--site: 'Montserrat', sans-serif !important;
+    --font--text: 'Open Sans', sans-serif !important;
+    --color--site: #050547 !important;
 }
 
 .menu {
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    height: 150px;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.151);
+    background-color: rgb(255, 255, 255) !important;
+    width: 100% !important;
+    height: 150px !important;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.151) !important;
 
 }
 
 .menu > h3 {
-    text-align: center;
-    font-size: 28px;
-    font-family: var(--font--site);
-    text-transform: capitalize;
-    color: var(--color--site);
+    text-align: center !important;
+    font-size: 28px !important;
+    font-family: var(--font--site) !important;
+    text-transform: capitalize !important;
+    color: var(--color--site) !important;
 }
 
 .logo {
-    width: 50px;
-    position: relative;
-    margin-left: 48%;
-    top: 5px;
+    width: 50px !important;
+    position: relative !important;
+    margin-left: 48% !important;
+    top: 5px !important;
 }
 
-.navbar {
-    display: grid;
-    grid-template-columns: repeat(6, 150px);
-    position: relative;
-    margin-left: 28%;
-    top: 20px;
+.nav__bar {
+    display: grid !important;
+    grid-template-columns: repeat(6, 150px) !important; 
+    position: relative !important;
+    margin-left: 28% !important;
+    top: 20px !important;
     
 }
 
 .nav__item {
-    font-size: 18px;
-    list-style: none;
-    color: var(--color--site);
-    text-transform: capitalize;
-    text-decoration: none;
+    font-size: 18px !important;
+    list-style: none !important; 
+    color: var(--color--site) !important;
+    text-transform: capitalize !important;
+    text-decoration: none !important;
 }
 
 .nav__item:hover {
 
-    transform: scale(1.1);
-    transition: all 0.9s;
-    margin-top: 10px;
+    transform: scale(1.1) !important;
+    transition: all 0.9s !important;
+    margin-top: 10px ;
 }
