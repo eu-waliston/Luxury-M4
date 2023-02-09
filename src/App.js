@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Menu from './components/menu/Menu';
+import Menu from './components/Menu';
 import Home from './components/main/Home';
 
 function App() {
