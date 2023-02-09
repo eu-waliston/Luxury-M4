@@ -71,13 +71,6 @@ const HOME__SECTION = styled.div`
 
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-
-    :root {
-        --font--site: 'Montserrat', sans-serif !important;
-        --font--text: 'Open Sans', sans-serif !important;
-        --color--site: #050547 !important;
-    }
-
     .carousel {
         filter: brightness(0.6);
        
@@ -96,11 +89,16 @@ const HOME__SECTION = styled.div`
 
     .info > h1 {
         font-size: 70px;
-        font-family: var(--font--site);
+        font-family: 'Montserrat', sans-serif !important;
     }
 
     .btn {
         color: aliceblue !important;
+        font-size: 18px;
+        &:hover {
+            transform: scale(1.1);
+            transition: all 0.6s;
+        }
     }
 
 @media (max-width: 900px) {
