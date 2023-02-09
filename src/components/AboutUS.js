@@ -4,19 +4,29 @@ import styled from "styled-components";
 const AboutUs = () => {
     return (
         <ABOUT__US>
-            <div className="section__1">
+            <div 
+                className="section__1" 
+                data-aos="fade-up"
+                data-aos-duration="2000"
+            >
                 <div className="side__A">
                     <TITLE>our story</TITLE>
                     <p className="parent">Lorem ipsum dolor sit amet, consectetur adipisicing elitipsum dolor sit amet,elitipsum dolor sit amet <br /> consectetur adipisicing elitipsum dolor sit amet, consectetur adipisicing elit.elitipsum dolor sit amet</p>
                     <button>__ view collection</button>
                 </div>
+                
                 <img
                     alt="joia"
                     src={require("./images/joia-gran.png")}
                     className="img_side_B"
                 />
             </div>
-            <div className="section__2">
+
+            <div 
+                className="section__2"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+            >
 
                 <img
                     alt="joia"
