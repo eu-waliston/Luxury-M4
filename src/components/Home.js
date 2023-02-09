@@ -80,7 +80,7 @@ const HOME__SECTION = styled.div`
 
     .carousel {
         filter: brightness(0.6);
-        top: -15px;
+       
     }
 
 
