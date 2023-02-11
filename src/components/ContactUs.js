@@ -113,8 +113,14 @@ const FORM = styled.div`
         width: 90px;
         height: 50px;
         top: -60px;
-        margin-left: 75.5%;
+        margin-left: 75.6%;
         background-color: #fff;
+
+        &:hover {
+            transition: all 0.8s;
+            color: #fff;
+            background-color: #050547;
+        }
     }
 
 `

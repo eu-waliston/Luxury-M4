@@ -76,7 +76,7 @@ const ABOUT__SECTION = styled.div`
                 text-decoration: none;
                 color: #fff;
                 background-color: #050547;
-                padding: 10px;
+                padding: 18px;
                 position: relative;
                 top: 20px;
                 text-transform: capitalize;
@@ -85,7 +85,7 @@ const ABOUT__SECTION = styled.div`
                     transition: all 0.8s;
                     color: #050547;
                     background-color: #fff;
-                    padding: 10px;
+                    
                 }
             }
         }

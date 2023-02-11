@@ -27,7 +27,7 @@ const Collection = () => {
                 <h1>
                     special offer for you
                 </h1>
-                <a href="#top" className="btu">view collection</a>
+                <a href="#top" className="btu">view Best Products</a>
             </BOTTON_SECTION>
         </COLLENCTION__SECTION>
     )
@@ -48,6 +48,7 @@ const GRID_IMAGES = styled.div`
 
     .img__size {
         width: 400px;
+        box-shadow: 5px 5px 12px rgba(0,0,0, 0.20);
     }
 `
 const GRID__PRICES = styled.div`
@@ -68,6 +69,13 @@ const GRID__PRICES = styled.div`
         height: 32px;
         border-radius: 5px;
         text-align: center;
+
+        &:hover {
+            transition: all 0.8s;
+            color: #000;
+            background-color: #fff;
+            cursor: pointer;
+        }
     }
 `
 const BOTTON_SECTION = styled.div `
