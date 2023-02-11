@@ -49,6 +49,14 @@ const Home = () => {
                             alt="First slide"
                         />
                     </Carousel.Item>
+
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src={require("./images/slide-6.jpg")}
+                            alt="First slide"
+                        />
+                    </Carousel.Item>
                 </Carousel>
             </div>
 
@@ -71,7 +79,6 @@ const HOME__SECTION = styled.div`
         filter: brightness(0.6);
         width: 100%;
         height: 100vh !important;
-        background-position: top;
     }
 
 
@@ -82,7 +89,7 @@ const HOME__SECTION = styled.div`
         color: aliceblue;
         text-align: center;
         text-transform: capitalize;
-        margin-left: 28%;
+        margin-left: 27%;
     }
 
     .info > h1 {
@@ -97,6 +104,11 @@ const HOME__SECTION = styled.div`
             transform: scale(1.1);
             transition: all 0.6s;
         }
+    }
+    .carousel-indicators, .carousel-control-prev, .carousel-control-next {
+        display: none;
+        visibility: hidden;
+        width: 0;
     }
 
 @media (max-width: 900px) {

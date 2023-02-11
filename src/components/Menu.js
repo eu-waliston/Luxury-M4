@@ -51,7 +51,7 @@ const MENU = styled.ul`
     display: grid !important;
     grid-template-columns: repeat(6, 150px) !important; 
     position: relative !important;
-    margin-left: 28% !important;
+    margin-left: 26% !important;
     top: 20px !important;
     
     }
