@@ -11,9 +11,9 @@ const Menu = () => {
                 <a className="nav__item" href="#home">home</a>
                 <a className="nav__item" href="#about">about us</a>
                 <a className="nav__item" href="#collection">collection</a>
-                <a className="nav__item" href="/">contact us</a>
-                <a className="nav__item" href="/">top products</a>
-                <a className="nav__item" href="/" >find us</a>
+                <a className="nav__item" href="#contact">contact us</a>
+                <a className="nav__item" href="#top">top products</a>
+                <a className="nav__item" href="#findUs" >find us</a>
             </ul>
         </MENU>
     )
