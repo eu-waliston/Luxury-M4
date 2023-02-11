@@ -27,7 +27,7 @@ const MENU = styled.ul`
 
     background-color: rgb(255, 255, 255) !important;
     width: 100% !important;
-    height: 150px !important;
+    height: 130px !important;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.151) !important;
     position: fixed;
     z-index: 99999;
@@ -41,10 +41,10 @@ const MENU = styled.ul`
     }
 
     .logo {
-    width: 50px !important;
-    position: relative !important;
-    margin-left: 48.5% !important;
-    top: 5px !important;
+        width: 50px !important;
+        position: relative !important;
+        margin-left: 48.5% !important;
+        top: 5px !important;
     }
 
     .nav__bar {
@@ -52,16 +52,16 @@ const MENU = styled.ul`
     grid-template-columns: repeat(6, 150px) !important; 
     position: relative !important;
     margin-left: 26% !important;
-    top: 20px !important;
+
     
     }
 
     .nav__item {
-    font-size: 18px !important;
-    list-style: none !important; 
-    color: #050547;
-    text-transform: capitalize !important;
-    text-decoration: none !important;
+        font-size: 18px !important;
+        list-style: none !important; 
+        color: #050547;
+        text-transform: capitalize !important;
+        text-decoration: none !important;
 
         &:hover {
         transition: all 0.4s !important;
